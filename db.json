@@ -1,161 +1,26 @@
 {
   "projects": [
     {
+      "name": "Projeto teste",
+      "budget": "32423",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
       "cost": 0,
       "services": [],
-      "name": "asdasd",
-      "budget": "123123",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
       "id": 1
     },
     {
+      "name": "Teste Hugo",
+      "budget": "50000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "teste1",
-      "budget": "1000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "teste",
-      "cost": 0,
-      "services": [],
-      "id": 8
-    },
-    {
-      "name": "teste",
-      "budget": "1212",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "name": "as",
-      "budget": "12",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "12",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 12
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "213123",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 13
-    },
-    {
-      "name": "asdasd",
-      "budget": "123123",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 14
-    },
-    {
-      "name": "asaddsa",
-      "budget": "1233",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 15
-    },
-    {
-      "name": "123123",
-      "budget": "2213",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 16
-    },
-    {
-      "cost": 0,
-      "services": [],
-      "id": 17
-    },
-    {
-      "name": "Projeto teste",
-      "budget": "123",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 18
     }
   ],
   "categories": [

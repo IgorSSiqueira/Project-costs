@@ -7,9 +7,8 @@ import SubmitButton from '../Form/SubmitButton'
 import style from './ProjectForm.module.css'
 
 function ProjectForm({ handleSubmit, btnText, projectData }) {
-
-    const [categories, setCategories] = useState([])
     const [project, setProject] = useState(projectData || {})
+    const [categories, setCategories] = useState([])
 
     useEffect(() => {
         fetch('http://localhost:5000/categories', {
@@ -22,7 +21,6 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
             .then((data) => {
                 setCategories(data)
             })
-            .catch((err) => console.log(err))
     }, [])
 
     const submit = (e) => {
@@ -52,7 +50,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 name='name'
                 placeholder='Insira o nome do projeto'
                 handleOnChange={handleChange}
-                value={project.name ? project.name : ''}
+                value={project.name}
             />
             <Input
                 type='number'
@@ -60,7 +58,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 name='budget'
                 placeholder='Insira o nome orçamento total'
                 handleOnChange={handleChange}
-                value={project.budget ? project.budget : ''}
+                value={project.budget}
             />
             <Select
                 name='category_ig'

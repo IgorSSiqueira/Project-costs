@@ -5,11 +5,9 @@ import ProjectForm from '../project/ProjectForm'
 import styles from './NewProject.module.css'
 
 function NewProject() {
-
     const navigate = useNavigate()
 
     function createPost(project) {
-
         //initialize cost and services
         project.cost = 0
         project.services = []
@@ -21,11 +19,11 @@ function NewProject() {
             },
             body: JSON.stringify(project),
         })
-            .then((resp => resp.json()))
+            .then((resp) => resp.json())
             .then((data) => {
                 navigate('/projects', { message: 'Projeto criado com sucesso!' })
             })
-            .catch(err => console.log(err))
+            .catch((err) => console.log(err))
     }
 
     return (
