@@ -2,10 +2,10 @@
   "projects": [
     {
       "name": "Projeto teste",
-      "budget": "32423",
+      "budget": "10000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "infra"
       },
       "cost": 0,
       "services": [],
@@ -13,14 +13,25 @@
     },
     {
       "name": "Teste Hugo",
-      "budget": "50000",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "tester rodrigo",
+      "budget": "10000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 2
+      "id": 3
     }
   ],
   "categories": [

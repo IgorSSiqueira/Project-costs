@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-
 import Input from '../Form/Input'
 import Select from '../Form/Select'
 import SubmitButton from '../Form/SubmitButton'
@@ -61,7 +60,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
                 value={project.budget}
             />
             <Select
-                name='category_ig'
+                name='category_id'
                 text='Selecione a categoria'
                 options={categories}
                 handleOnChange={handleCategory}
