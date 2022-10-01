@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "Teste Hugo",
-      "budget": "5000",
+      "name": "Test Message",
+      "budget": "5500",
       "category": {
         "id": "1",
         "name": "infra"
@@ -23,15 +23,26 @@
       "id": 2
     },
     {
-      "name": "tester rodrigo",
-      "budget": "10000",
+      "name": "Atualizado",
+      "budget": "15000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "infra"
       },
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Teste Fim Curso",
+      "budget": "1000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [

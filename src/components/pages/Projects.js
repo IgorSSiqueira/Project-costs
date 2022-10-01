@@ -21,8 +21,6 @@ function Projects() {
         message = location.state.message
     }
 
-    console.log('Batata', location)
-
     useEffect(() => {
         fetch('http://localhost:5000/projects' , {
             method: 'GET',
